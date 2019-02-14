@@ -1,0 +1,22 @@
+# Output and cache
+/wcproto/_Debug/
+/wcproto/Compiled/
+/wcproto/AudioCache/
+/wcproto/wcproto.exe
+/wcproto/warnings.log
+
+# Backup files
+/wcproto/*.bak
+/wcproto/backup_acsprset.spr
+
+# Local user configuration
+/wcproto/*.user
+
+# Temporary files
+/wcproto/_OpenInEditor.lock
+/wcproto/~aclzw.tmp
+/wcproto/game28.dta
+
+# Project binaries
+/wcproto/acsprset.spr
+/wcproto/sprindex.dat
