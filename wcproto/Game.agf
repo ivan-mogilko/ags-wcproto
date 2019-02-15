@@ -1419,6 +1419,30 @@
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>Maths.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>452959556</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>Maths.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>452959556</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>Matrix.ash</FileName>
                 <Name />
                 <Description />
@@ -1436,6 +1460,78 @@
                 <Author />
                 <Version />
                 <Key>315011015</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>Camera3D.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>405862400</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>Camera3D.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>405862400</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>SpaceObjects.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>2000081946</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>SpaceObjects.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>2000081946</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>CameraControls.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>448446021</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>CameraControls.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>448446021</Key>
                 <IsHeader>False</IsHeader>
               </Script>
             </ScriptAndHeader_Script>
