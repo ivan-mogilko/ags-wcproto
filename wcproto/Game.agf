@@ -10,7 +10,7 @@
       <CustomResolution>480,270</CustomResolution>
       <CompressSprites>False</CompressSprites>
       <SaveScreenshots>False</SaveScreenshots>
-      <RoomTransition>FadeOutAndIn</RoomTransition>
+      <RoomTransition>Instant</RoomTransition>
       <MouseWheelEnabled>True</MouseWheelEnabled>
       <UseLowResCoordinatesInScript>False</UseLowResCoordinatesInScript>
       <TurnBeforeFacing>False</TurnBeforeFacing>
