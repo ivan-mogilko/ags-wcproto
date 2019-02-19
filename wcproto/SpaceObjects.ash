@@ -10,7 +10,7 @@
 struct SpaceObjects {
   import static void Init();
   import static void DrawAll(DrawingSurface *ds);
-  import static void UpdateAll();
+  import static void UpdateAll(float dt);
   
   /// Removes all space objects in the world
   import static void RemoveAllObjects();
