@@ -10,6 +10,7 @@
 struct SpaceObjects {
   import static void Init();
   import static void DrawAll(DrawingSurface *ds);
+  import static void UpdateAll();
   
   /// Removes all space objects in the world
   import static void RemoveAllObjects();
@@ -19,3 +20,9 @@ struct SpaceObjects {
   /// Sets up space dust particles; returns actual maximal number of particles
   import static int  SetupSpaceDust(int max_count, int spawn_range, int min_size, int max_size, int grey_color1, int grey_color2);
 };
+
+// TODO: exported these for the sake of simplicity at the moment.
+// Must figure out a good API to connect different layers of abstraction for space objects!
+import Vec4 SO_point[MAX_SPACE_OBJECTS];
+import Vec4 SO_vel[MAX_SPACE_OBJECTS];
+import Vec4 SO_dir[MAX_SPACE_OBJECTS];

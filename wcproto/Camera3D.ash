@@ -8,7 +8,8 @@
 
 struct Camera3D {
   import static void Init();
-  import static void Update(float speed, float yaw, float pitch, float roll);
+  import static void UpdateRotations(float speed, float yaw, float pitch, float roll);
+  import static void UpdateTransforms();
   /// Converts 3D position into 2D representation on screen, returns TRUE if point is visible.
   /// Arguments:
   ///  - pos[]: 4 floats defining position (x,y,z,w)

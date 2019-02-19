@@ -4,6 +4,9 @@
 //
 //-----------------------------------------------------------------------------
 
+// TINY_FLOAT constant, to detect floating point values close to zero
+#define TINY_FLOAT 0.000001
+
 // absolute value
 import float abs(float n);
 // max value of two

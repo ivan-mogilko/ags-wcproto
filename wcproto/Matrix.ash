@@ -36,6 +36,7 @@ struct Matrix {
 /// 4-component Vector
 struct Vec4 {
   float x, y, z, w;
+  import bool IsZero();
   import float Length();
   import void Normalize();
   import float[] Get();
@@ -43,6 +44,7 @@ struct Vec4 {
   import void Set(float c[]);
   import void SetXYZ(float x, float y, float z);
   import void SetXYZW(float x, float y, float z, float w);
+  import void Add(float x, float y, float z);
   import void Cross(float a[], float b[]);
   import void Scale(float f);
   import String ToString();

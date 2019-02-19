@@ -6,8 +6,9 @@
 //-----------------------------------------------------------------------------
 
 struct CameraControls {
-  import static void Init();
+  import static void Init(int space_object);
   import static void HandleInput();
+  import static void Update();
 };
 
 import float speed;
