@@ -969,10 +969,10 @@
       </MouseCursor>
       <MouseCursor>
         <ID>6</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>8</HotspotX>
+        <HotspotY>10</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>0</Image>
+        <Image>3</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1320,6 +1320,11 @@
                   <Sprite Slot="1" Width="480" Height="270" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>Sprites/viewscreen.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="3" Width="17" Height="21" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>Sprites/cursor.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
