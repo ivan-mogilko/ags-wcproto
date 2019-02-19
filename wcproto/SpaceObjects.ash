@@ -26,3 +26,8 @@ struct SpaceObjects {
 import Vec4 SO_point[MAX_SPACE_OBJECTS];
 import Vec4 SO_vel[MAX_SPACE_OBJECTS];
 import Vec4 SO_dir[MAX_SPACE_OBJECTS];
+// TODO: maybe "up" and "right" vectors with simplier value meaning rotation around "dir"?
+// and calculate necessary vectors from "dir" and that value.
+import Vec4 SO_up[MAX_SPACE_OBJECTS];
+import Vec4 SO_right[MAX_SPACE_OBJECTS];
+import Vec4 SO_angvel[MAX_SPACE_OBJECTS]; // angular velocity in rad/sec; relative to local axes!

@@ -12,4 +12,3 @@ struct CameraControls {
 };
 
 import float speed;
-import float yaw, pitch, roll;

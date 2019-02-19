@@ -8,7 +8,6 @@
 
 struct Camera3D {
   import static void Init();
-  import static void UpdateRotations(float speed, float yaw, float pitch, float roll);
   import static void UpdateTransforms();
   /// Converts 3D position into 2D representation on screen, returns TRUE if point is visible.
   /// Arguments:
@@ -19,8 +18,9 @@ struct Camera3D {
 };
 
 import int SX, SY;
-import Vec4 cam_pos, cam_dir, cam_up, cam_right;
-import float totalRoll;
+import Vec4 cam_pos;
+import Vec4 cam_dir, cam_up, cam_right;
+import float camera_roll; // used for sprite rotation
 import Matrix viewProj;
 
 // The means to store latest coordinates transformation from 3D to 2D screen
