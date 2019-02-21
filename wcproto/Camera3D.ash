@@ -6,6 +6,14 @@
 
 #define focalLength 600.0
 
+// 3D -> 2D conversion result
+struct TransformResult
+{
+  int pos[2]; // x,y pos
+  int size;   // 2D size
+  int rot;    // 2D angle in rads
+};
+
 struct Camera3D {
   import static void Init();
   import static void UpdateTransforms();
@@ -25,6 +33,4 @@ import Matrix viewProj;
 
 // The means to store latest coordinates transformation from 3D to 2D screen
 // (this is made for speed, of coding and execution)
-import int screenPos[2]; // x,y pos
-import int screenSize;   // 2D size
-import int screenRot;    // 2D angle in rads
+import TransformResult scr_pos;
