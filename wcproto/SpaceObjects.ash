@@ -16,6 +16,7 @@ struct SpaceObjects {
   import static void RemoveAllObjects();
   /// Adds a space object and assigns sprite to it; returns object's index or -1 if could not add one.
   import static int  AddObject(float x, float y, float z, float size, int sprite);
+  import static void RemoveObject(int obj);
   
   /// Sets up space dust particles; returns actual maximal number of particles
   import static int  SetupSpaceDust(int max_count, int spawn_range, int min_size, int max_size, int grey_color1, int grey_color2);
@@ -31,3 +32,5 @@ import Vec4 SO_dir[MAX_SPACE_OBJECTS];
 import Vec4 SO_up[MAX_SPACE_OBJECTS];
 import Vec4 SO_right[MAX_SPACE_OBJECTS];
 import Vec4 SO_angvel[MAX_SPACE_OBJECTS]; // angular velocity in rad/sec; relative to local axes!
+// object lifetime, set <0 for endless life
+import float SO_lifetime[MAX_SPACE_OBJECTS];

@@ -1520,6 +1520,30 @@
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>SpaceSim.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1476804390</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>SpaceSim.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1476804390</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>CameraControls.ash</FileName>
                 <Name />
                 <Description />
