@@ -1,0 +1,1 @@
+Project script by Ivan Mogilko, based on original code by [@KhrisMuc](https://github.com/KhrisMuc), released under CC 4.0 BY license (https://creativecommons.org/licenses/by/4.0/).
